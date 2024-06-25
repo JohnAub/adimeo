@@ -1,0 +1,7 @@
+name: "Event Depublish"
+type: module
+description: "Module to depublish expired events using QueueWorker."
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:node

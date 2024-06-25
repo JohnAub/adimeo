@@ -1,0 +1,9 @@
+name: "Event Block"
+type: module
+description: "Provides a custom block for displaying related events."
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:taxonomy
+  - drupal:node
+version: 1.0.0
